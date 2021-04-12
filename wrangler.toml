@@ -1,0 +1,6 @@
+name = "inspector"
+type = "javascript"
+account_id = "e14b335c0453449e44d6cbde17198be3"
+workers_dev = true
+route = ""
+zone_id = ""
