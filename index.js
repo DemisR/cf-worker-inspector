@@ -13,9 +13,8 @@ async function handleRequest(e) {
     empty = empty.concat(element[0], " => ", element[1], "\n")
   }
 
-
   var host = e.headers.get("host")
-  return new Response(a, {
+  return new Response(empty, {
     status: 200
   })
 }
