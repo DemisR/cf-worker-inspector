@@ -17,7 +17,6 @@ async function handleRequest(request) {
     proxied = false
   }
 
-  // let asResponse = await fetch("https://api.bgpview.io/asn/" + request.cf.asn)
   const asResponse  = await fetch("https://api.bgpview.io/asn/" + request.cf.asn)
   const asInfo = await asResponse.json()
   console.log(asInfo)
