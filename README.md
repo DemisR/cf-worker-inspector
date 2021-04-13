@@ -1,15 +1,15 @@
-# 👷 `worker-template` Hello World
+# 👷 HTTP Inspector
 
-A template for kick starting a Cloudflare worker project.
+__Project for test CloudFlare workers__
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+Inpsect HTTP request, detect if behind proxy ,
+respond with informations like IP and AS name.
 
-#### Wrangler
+## Wrangler
 
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
+- Generate project from template `wrangler generate projectname https://github.com/cloudflare/worker-template`
+- Test your worker `wrangler dev`
+- Publish changes `wrangler publish`
+- Authenticate Wrangler with your Cloudflare login `wrangler login`
 
 Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
